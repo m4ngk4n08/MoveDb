@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\MoveDb\MoveDb.Services\bin\Debug\net8.0\MoveDb.Services.deps.json
+C:\Users\Admin\source\repos\MoveDb\MoveDb.Services\bin\Debug\net8.0\MoveDb.Services.dll
+C:\Users\Admin\source\repos\MoveDb\MoveDb.Services\bin\Debug\net8.0\MoveDb.Services.pdb
+C:\Users\Admin\source\repos\MoveDb\MoveDb.Services\obj\Debug\net8.0\MoveDb.Services.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\MoveDb\MoveDb.Services\obj\Debug\net8.0\MoveDb.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\MoveDb\MoveDb.Services\obj\Debug\net8.0\MoveDb.Services.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MoveDb\MoveDb.Services\obj\Debug\net8.0\MoveDb.Services.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MoveDb\MoveDb.Services\obj\Debug\net8.0\MoveDb.Services.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MoveDb\MoveDb.Services\obj\Debug\net8.0\MoveDb.Services.dll
+C:\Users\Admin\source\repos\MoveDb\MoveDb.Services\obj\Debug\net8.0\refint\MoveDb.Services.dll
+C:\Users\Admin\source\repos\MoveDb\MoveDb.Services\obj\Debug\net8.0\MoveDb.Services.pdb
+C:\Users\Admin\source\repos\MoveDb\MoveDb.Services\obj\Debug\net8.0\ref\MoveDb.Services.dll

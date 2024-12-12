@@ -1,0 +1,75 @@
+﻿@model List<MoveDb.Services.Data.Entities.ResultResponse>;
+<style>
+    .card {
+        margin: 10px;
+        padding: 0;
+    }
+    /* Main container */
+    .hover-container {
+        position: relative;
+        display: inline-block;
+    }
+    /* The hoverable div */
+    .hover-box {
+        width: 150px;
+        height: 50px;
+        background: #3498db;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 16px;
+        position: relative;
+    }
+
+    /* Hidden image container */
+    .popup-image {
+        position: absolute;
+        display: none; /* Initially hidden */
+        z-index: 10;
+        pointer-events: none; /* Prevent interactions */
+    }
+
+        .popup-image img {
+            width: 150px; /* Adjust the image size */
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+</style>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<hr style="color:darkred;" />
+<h1 style="color:darkred;">Recommendation based on the current movie.</h1>
+<div class="row mx-auto">
+    @for (int i = 0; i < Model.Count(); i++)
+    {
+        <div data-popover id="cards@(i)" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+            <div class="px-3 py-2 bg-gray-100 border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-gray-700">
+                <p class="font-semibold text-gray-900 dark:text-white">@Model[i].Name</p>
+                <p class="font-semibold text-gray-900 dark:text-white">@Model[i].Overview</p>
+                <p class="font-semibold text-gray-900 dark:text-white">@Model[i].VoteAverage</p>
+            </div>
+            <div class="px-3 py-2">
+                <p>@Model[i].Genres</p>
+            </div>
+            <div data-popper-arrow></div>
+        </div>
+
+        <div class="card img-fluid" style="width:250px" data-popover-target="cards@(i)">
+            <img class="card-img-top" src="@Model[i].PosterPath" alt="Card image" style="width:100%">
+            <div class="card-img-overlay" style="margin-top: 120px;">
+                @* <h4 class="card-title">@Model[i].Name</h4> *@
+                <p class="card-text" style="color:darkred;"></p>
+            </div>
+        </div>
+    }
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,18 @@
+First Phase
+	- Design
+	- kickass design with hoverable internet ratings and details(cast, director etc..)
+Second Phase
+	- Login
+	- Favorites
+		- Movie suggestion based on favorites and also based on gendra
+	- Categories
+	- 
+	- Watch later?
+	- Unfinished movie?
+	- How to play movie or series on a different server?? tbc.
+Third phase
+	- Manage GC
+	- Optimize
+	- Future feature
+
+

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="dotnetgeminisdk" Version="1.0.14" />
+    <PackageReference Include="RestSharp" Version="111.4.0" />
+    <PackageReference Include="Titanium.Web.Proxy" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MoveDb.Services\MoveDb.Services.csproj" />
+  </ItemGroup>
+
+</Project>

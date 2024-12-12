@@ -1,0 +1,18 @@
+﻿@model MoveDb.Services.Data.Entities.ResultResponse;
+
+@{
+    ViewData["Title"] = "watch";
+}
+
+<script type="module">
+    import { processExternalContent } from "/js/movie.js";
+    const result = @Html.Raw(Json.Serialize(Model))
+        //processExternalContent(result);
+</script>
+<div class="external-content">
+    <!-- The fetched video will be played here -->
+</div>
+
+@await Component.InvokeAsync("Cards", Model);
+
+<script src="~/js/movie.js" type="module"></script>

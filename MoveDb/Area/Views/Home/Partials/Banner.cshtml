@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MoveDb.Services.Data.Entities.Result>
+<script type="module">
+    import { processResult } from "./js/carousel.js"
+    const resultModel = @Html.Raw(Json.Serialize(Model))
+        processResult(resultModel);
+</script>
+<!-- Top content -->
+<div class="top-content">
+    <!-- Carousel -->
+    <div class="carousel1">
+
+        @{ var count = 1; }
+
+        <input type="radio" name="control" id="b1" checked>
+        @foreach (var item in @Model.Skip(1))
+        {
+            count++;
+            <input type="radio" name="control" id=@("b" + count) />
+        }
+
+        @{ count = 0; }
+
+        <div class="content">
+            <div class="controls">
+                @foreach (var item in Model)
+                {
+                    count++;
+                    <label for="@("b" + count)"></label>
+                }
+
+            </div>
+        </div>
+        <div class="firefox">
+            <span>Sorry, <code>:has()</code> is not supported by this browser.</span>
+        </div>
+    </div>
+    <!-- End carousel -->
+</div>
+
+<link rel="stylesheet" href="~/css/carousel.css" asp-append-version="true" />
+<script src="~/js/carousel.js" type="module"></script>
+
+

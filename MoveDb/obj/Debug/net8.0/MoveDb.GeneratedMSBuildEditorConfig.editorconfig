@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MoveDb
+build_property.RootNamespace = MoveDb
+build_property.ProjectDir = C:\Users\Admin\source\repos\MoveDb\MoveDb\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\MoveDb\MoveDb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Admin/source/repos/MoveDb/MoveDb/Area/Views/Components/Cards/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYVxWaWV3c1xDb21wb25lbnRzXENhcmRzXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/MoveDb/MoveDb/Area/Views/Components/Sidebar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYVxWaWV3c1xDb21wb25lbnRzXFNpZGViYXJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/MoveDb/MoveDb/Area/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYVxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/MoveDb/MoveDb/Area/Views/Home/Partials/Banner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYVxWaWV3c1xIb21lXFBhcnRpYWxzXEJhbm5lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/MoveDb/MoveDb/Area/Views/Home/Watch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYVxWaWV3c1xIb21lXFdhdGNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/MoveDb/MoveDb/Area/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYVxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/MoveDb/MoveDb/Area/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYVxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/MoveDb/MoveDb/Area/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/MoveDb/MoveDb/Area/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYVxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/MoveDb/MoveDb/Area/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYVxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-gdjddnixy0

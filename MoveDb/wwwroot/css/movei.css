@@ -1,0 +1,12 @@
+﻿.external-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vertical centering */
+    margin-top: 30px;
+}
+
+iframe {
+    background: lightblue;
+    text-align: center;
+    line-height: 100px; /* Align text vertically for single-line content */
+}
